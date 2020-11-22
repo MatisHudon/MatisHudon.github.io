@@ -3,7 +3,7 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
+      <loc>https://matishudon.github.io/publication_types/1/</loc>
       <lastmod>2018-09-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</loc>
+      <loc>https://matishudon.github.io/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</loc>
       <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -20,16 +20,7 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
+      <loc>https://matishudon.github.io/</loc>
       <lastmod>2018-09-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -38,7 +29,16 @@
     
     <url>
     
-      <loc>/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</loc>
+      <loc>https://matishudon.github.io/publication_types/</loc>
+      <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://matishudon.github.io/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</loc>
       <lastmod>2018-09-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -46,7 +46,7 @@
     
     <url>
     
-      <loc>/publication/automatic-palette-extraction-for-image-editing/</loc>
+      <loc>https://matishudon.github.io/publication/automatic-palette-extraction-for-image-editing/</loc>
       <lastmod>2018-08-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -54,7 +54,7 @@
     
     <url>
     
-      <loc>/publication/2d-shading-for-cel-animation/</loc>
+      <loc>https://matishudon.github.io/publication/2d-shading-for-cel-animation/</loc>
       <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -62,7 +62,7 @@
     
     <url>
     
-      <loc>/publication/2dtoonshade_a_stroke_based_toon_shading_system/</loc>
+      <loc>https://matishudon.github.io/publication/2dtoonshade_a_stroke_based_toon_shading_system/</loc>
       <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -70,7 +70,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://matishudon.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -78,7 +78,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://matishudon.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://matishudon.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -94,7 +94,7 @@
     
     <url>
     
-      <loc>/publication/automatic-light-compositing/</loc>
+      <loc>https://matishudon.github.io/publication/automatic-light-compositing/</loc>
       <lastmod>2016-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -102,7 +102,7 @@
     
     <url>
     
-      <loc>/publication/shape-and-reflectance/</loc>
+      <loc>https://matishudon.github.io/publication/shape-and-reflectance/</loc>
       <lastmod>2016-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -110,7 +110,7 @@
     
     <url>
     
-      <loc>/publication/high-speed-sequential/</loc>
+      <loc>https://matishudon.github.io/publication/high-speed-sequential/</loc>
       <lastmod>2015-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -118,7 +118,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://matishudon.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -126,7 +126,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://matishudon.github.io/tags/</loc>
       <priority>0</priority>
     </url>
     

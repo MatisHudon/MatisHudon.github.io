@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Matis Hudon</title>
-    <link>/publication_types/1/</link>
+    <link>https://matishudon.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Matis Hudon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matishudon.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dynamic Environment Mapping for Augmented Reality Applications on Mobile Devices</title>
-      <link>/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</link>
+      <link>https://matishudon.github.io/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</guid>
+      <guid>https://matishudon.github.io/publication/dynamic-environment-mapping-for-augmented-reality-applications-on-mobile-devices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Normal Estimation for Automatic Shading of Hand-Drawn Characters</title>
-      <link>/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</link>
+      <link>https://matishudon.github.io/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</guid>
+      <guid>https://matishudon.github.io/publication/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Palette Extraction for Image Editing</title>
-      <link>/publication/automatic-palette-extraction-for-image-editing/</link>
+      <link>https://matishudon.github.io/publication/automatic-palette-extraction-for-image-editing/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/automatic-palette-extraction-for-image-editing/</guid>
+      <guid>https://matishudon.github.io/publication/automatic-palette-extraction-for-image-editing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2D Shading for Cel Animation</title>
-      <link>/publication/2d-shading-for-cel-animation/</link>
+      <link>https://matishudon.github.io/publication/2d-shading-for-cel-animation/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2d-shading-for-cel-animation/</guid>
+      <guid>https://matishudon.github.io/publication/2d-shading-for-cel-animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2DToonShade: A stroke based toon shading system</title>
-      <link>/publication/2dtoonshade_a_stroke_based_toon_shading_system/</link>
+      <link>https://matishudon.github.io/publication/2dtoonshade_a_stroke_based_toon_shading_system/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2dtoonshade_a_stroke_based_toon_shading_system/</guid>
+      <guid>https://matishudon.github.io/publication/2dtoonshade_a_stroke_based_toon_shading_system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Light Compositing using Rendered Images</title>
-      <link>/publication/automatic-light-compositing/</link>
+      <link>https://matishudon.github.io/publication/automatic-light-compositing/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/automatic-light-compositing/</guid>
+      <guid>https://matishudon.github.io/publication/automatic-light-compositing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shape and Reflectance from RGB-D Images using Time Sequential Illumination</title>
-      <link>/publication/shape-and-reflectance/</link>
+      <link>https://matishudon.github.io/publication/shape-and-reflectance/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/shape-and-reflectance/</guid>
+      <guid>https://matishudon.github.io/publication/shape-and-reflectance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>High speed sequential illumination with electronic rolling shutter cameras</title>
-      <link>/publication/high-speed-sequential/</link>
+      <link>https://matishudon.github.io/publication/high-speed-sequential/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/high-speed-sequential/</guid>
+      <guid>https://matishudon.github.io/publication/high-speed-sequential/</guid>
       <description></description>
     </item>
     
