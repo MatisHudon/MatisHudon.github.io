@@ -1,0 +1,24 @@
+.fixed-column {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .fixed-column {
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.scrollable-column {
+  padding: 20px;
+  overflow: hidden; /* Hide any overflowing content */
+  margin-left: 50%; /* Adjust this value to match the width of the fixed column */
+  overflow-y: auto;
+  height: 100vh;
+}

@@ -1,0 +1,37 @@
+:root {
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.15em !important;
+   background-color: #fffaeb;
+}
+
+.my-node-enter {
+  filter: blur(5px);
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+  transition: all 1000ms;
+}
+.my-node-exit {
+  filter: blur(0px);
+  transform: translateX(-100%);
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  filter: blur(0px);
+  transform: translateX(-100%);
+}
+
+.v-center {
+    top: 120%;
+}
