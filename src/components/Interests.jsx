@@ -41,9 +41,9 @@ function Interests() {
               <h2 class="card-title">Interests</h2>
                 <p class="card-text lead">
                   <ul>
-                  <li>Deep and Machine Learning</li>
-                  <li>Computer Graphics</li>
-                  <li>Computer Vision</li>
+                  <li>Deep ML and Generative AI</li>
+                  <li>Computer Graphics and Vision</li>
+                  <li>Parallel computing</li>
                   <li>Empowering Creatives</li>
                   </ul>
                 </p>

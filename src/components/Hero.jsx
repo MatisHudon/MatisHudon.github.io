@@ -6,6 +6,7 @@ import CompLogo from './CompLogo';
 import useScreenSize from './UseScreenSize';
 import Interests from './Interests';
 import Publication from './Publication';
+import Skills from './Skills';
 
 import './Hero.css';
 
@@ -31,6 +32,7 @@ function Hero() {
   const aRef = useRef(null); 
   const expRef = useRef(null); 
   const patRef = useRef(null); 
+  const skillRef = useRef(null); 
 
   return (
       <div className="container">
@@ -48,6 +50,7 @@ function Hero() {
               </div>
               <div className="row">
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {aRef.current.scrollIntoView({behavior: 'smooth'})}}> About </button>
+                <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {patRef.current.scrollIntoView({behavior: 'smooth'})}}> Skills </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {expRef.current.scrollIntoView({behavior: 'smooth'})}}> Experience </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {pubRef.current.scrollIntoView({behavior: 'smooth'})}}> Publications </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {patRef.current.scrollIntoView({behavior: 'smooth'})}}> Patents </button>
@@ -67,6 +70,9 @@ function Hero() {
             <p> Researcher with over 10 years of expertise in academia and entrepreneurship, specializing in computer vision, computer graphics, and imaging technologies. Led impactful projects in sensor technology and AI applications. Co-founder of Tyndall FX, focusing on R&D in emerging fields like NERF, 3D Gaussian splatting and vision transformers. Dedicated to pushing boundaries and achieving ambitious goals in technology and research. Skilled developer with a strong proficiency in various programming languages and frameworks.</p>
             <br/>
             <Interests/>
+            <br/>
+            <h1 className="display-5" ref={skillRef}> Skills </h1>
+            <Skills/>
             <br/>
             <h1 className="display-5" ref={expRef}> Experience </h1>
             <Experience 
@@ -242,63 +248,63 @@ function Hero() {
 
             <h1 className="display-5" ref={patRef}> Patents </h1>
               <Publication
-                title="Procédé d'adaptation de l'éclairage et dispositif d'enregistrement d'images"
+                title="Illumination adapting method and picture recording arrangement"
                 authors="Raoul Mallart, Josselin MANCEAU, Enrico CORTESE, Guillaume CORTES, Matis Hudon"
-                link="https://patents.google.com/patent/WO2023232373A1/fr"
+                link="https://patents.google.com/patent/WO2023232373A1/en"
               />
 
               <Publication
-                title="Agencement d'enregistrement d'image, source de lumière et procédé de fonctionnement d'un agencement d'enregistrement d'image"
+                title="Picture recording arrangement, light source and method for operating a picture recording arrangement"
                 authors="Alessandro PIOTTO, Andrea DI-CHELE, Vladimir Gründling, Davide SOLIDA, Kian Boon Kelvin QUAH, Johannes Haase, Matis Hudon"
-                link="https://patents.google.com/patent/WO2023232592A1/fr"
+                link="https://patents.google.com/patent/WO2023232592A1/en"
               />
 
               <Publication
-                title="Procédé de reconstruction en 3 d et agencement d'enregistrement d'images"
+                title="3d reconstruction method and picture recording arrangement"
                 authors="Enrico CORTESE, Josselin MANCEAU, Matis Hudon, Guillaume CORTES"
-                link="https://patents.google.com/patent/WO2023232417A1/fr"
+                link="https://patents.google.com/patent/WO2023232417A1/en"
               />
 
               <Publication
-                title="Procédé et système de traitement d'image pour corriger des couleurs d'une image d'entrée représentant une scène éclairée par de multiples moyens d'éclairage"
-                authors="Matis Hudon, Elnaz Soleimani"
-                link="https://patents.google.com/patent/WO2023066724A1/fr"
-              />
-
-              <Publication
-                title="Procédé et appareil permettant d'acquérir un ensemble d'images éclairé par un flash"
-                authors="Paul Kerbiriou, Matis Hudon, Olivier Bureller"
-                link="https://patents.google.com/patent/EP2887646B1/fr"
-              />
-
-              <Publication
-                title="Procédé et appareil d'estimation de paramètres de réflectance et de la position d'une source lumineuse dans une scène"
-                authors="Philippe Robert, Salma JIDDI, Matis Hudon"
-                link="https://patents.google.com/patent/EP3144893B1/fr"
-              />
-
-              <Publication
-                title="Procédé, appareil et système pour déterminer des paramètres de réflectance et normaux à l'aide d'un éclairage séquentiel"
-                authors="Matis Hudon, Philippe Robert, Paul Kerbiriou"
-                link="https://patents.google.com/patent/EP3151190A1/fr"
-              />
-
-              <Publication
-                title="Procédé et système de détermination d'images intrinsèques d'images bidimensionnelles dans une séquence vidéo"
-                authors="Philippe Robert, Salma JIDDI, Matis Hudon"
-                link="https://patents.google.com/patent/EP3144898A1/fr"
-              />
-
-              <Publication
-                title="Procédé et dispositif permettant de capturer les images d'une scène dans différentes configurations d'éclairage"
+                title="Method and device for capturing frames of a scene under different illumination configurations"
                 authors="Olivier Bureller, Matis Hudon, Paul Kerbiriou, Arno Schubert"
-                link="https://patents.google.com/patent/EP2938065A1/fr"
+                link="https://patents.google.com/patent/EP2938065A1/en"
               />
 
               <Publication
-                title="Procédés et systèmes de traitement d'image pour entraîner un modèle d'apprentissage automatique pour prédire des conditions d'éclairage pour différentes positions par rapport à une scène"
+                title="Image processing methods and systems for training a machine learning model to predict illumination conditions for different positions relative to a scene"
                 authors="Matis Hudon, Guillaume CORTES, Toon Van Den Zegel"
-                link="https://patents.google.com/patent/WO2023131544A1/fr"
+                link="https://patents.google.com/patent/WO2023131544A1/en"
+              />
+
+              <Publication
+                title="Image processing method and system for correcting colors of an input image representing a scene illuminated by multiple illuminants"
+                authors="Matis Hudon, Elnaz Soleimani"
+                link="https://patents.google.com/patent/WO2023066724A1/en"
+              />
+
+              <Publication
+                title="Method and apparatus for acquiring a set of images illuminated by a flash"
+                authors="Paul Kerbiriou, Matis HUDON, Olivier Bureller"
+                link="https://patents.google.com/patent/US9769397B2/en"
+              />
+
+              <Publication
+                title="Reflectance parameter estimation in real scenes using an rgb-d sequence"
+                authors="Philippe Robert, Salma JIDDI, Matis HUDON"
+                link="https://patents.google.com/patent/US20170084075A1/en"
+              />
+
+              <Publication
+                title="Method and apparatus for estimating reflectance parameter and position of light source in scene"
+                authors="ロバート，フィリップ, Robert Philippe, ジッディ，サルマ, Jiddi Salma, ハドン，マチス, Hudon Matis"
+                link="https://patents.google.com/patent/JP2017102896A/en"
+              />
+
+              <Publication
+                title="Method, apparatus and system for determining normal and reflectance parameters using sequential illumination"
+                authors="Matis Hudon, Philippe Robert, Paul Kerbiriou"
+                link="https://patents.google.com/patent/EP3151190A1/en"
               />
 
           </div>
