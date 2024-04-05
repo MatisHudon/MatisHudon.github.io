@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Plx from "react-plx";
+import 'react-tooltip/dist/react-tooltip.css'
 
 import Hero from './components/Hero'
 

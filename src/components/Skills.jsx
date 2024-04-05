@@ -1,4 +1,4 @@
-
+import { Tooltip } from 'react-tooltip'
 import python from '../assets/python.png';
 import c from '../assets/c.png';
 import cpp from '../assets/cpp.png';
@@ -68,6 +68,12 @@ function Skills() {
         <img src={vim} className="img-fluid"/>
       </div>
     </div>
+      {/*
+    <Tooltip anchorSelect=".python">
+        <p>Pytorch</p>
+        <p>Tensorflow</p>
+    </Tooltip>
+    */}
     </div>
   )
 }

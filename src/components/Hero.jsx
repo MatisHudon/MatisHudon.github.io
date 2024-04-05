@@ -50,7 +50,7 @@ function Hero() {
               </div>
               <div className="row">
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {aRef.current.scrollIntoView({behavior: 'smooth'})}}> About </button>
-                <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {patRef.current.scrollIntoView({behavior: 'smooth'})}}> Skills </button>
+                <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {skillRef.current.scrollIntoView({behavior: 'smooth'})}}> Skills </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {expRef.current.scrollIntoView({behavior: 'smooth'})}}> Experience </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {pubRef.current.scrollIntoView({behavior: 'smooth'})}}> Publications </button>
                 <button className="btn btn-lg border-0 btn-block text-start" onClick={() => {patRef.current.scrollIntoView({behavior: 'smooth'})}}> Patents </button>
