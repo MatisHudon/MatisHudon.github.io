@@ -1,10 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import useScreenSize from './UseScreenSize';
 import './Experience.css'
 
 function Experience({title, authors, pdf, cite, video, img, github, link}) {
   const [isHovered, setIsHovered] = useState(false)
   const [showCopied, setShowCopied] = useState(false);
+  const screenSize = useScreenSize();
 
   function ToggleCopied(){
     setShowCopied(true);
@@ -32,9 +34,9 @@ function Experience({title, authors, pdf, cite, video, img, github, link}) {
         <div className="row">
         {img &&
           <div className="col-3">
-            <img  src={img}/>
+          {(screenSize.width > 990) && <img  src={img}/>}
           </div>}
-        <div className={img ? "col-9": "col-12"}>
+        <div className={(img && (screenSize.width > 990)) ? "col-9": "col-12"}>
           <div class="card-body">
             <h5 class="card-title strong" >{title}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{authors}</h6>

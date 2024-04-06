@@ -40,18 +40,14 @@ function Experience({date, company, url, title, sub, hover_callback}) {
   return (
     <>
     <div ref={ref} style={{height: "10px"}}/>
-      <div className={isHovered?"border":null} style={{padding: "10px"}}>
-        <div className="row" 
-          onMouseOver={()=>set_hover()} 
-          onMouseOut={()=>set_unhover()} 
-          onClick={()=>goto()}
-        >
+      <div style={{padding: "10px"}}>
+        <div className="row">
           <div className="col-2 px-3" >
             {date}
           </div>
           <div className="col-10" >
             <div class="card-body">
-              <h5 class="card-title">{company}</h5>
+              <h5 class="card-title"><a href={url}>{company}</a></h5>
                 <p class="card-text lead">{title}</p>
                 <p>{sub}</p>
             </div>

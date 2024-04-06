@@ -6,3 +6,8 @@
 .padding {
   padding: 1em;
 }
+
+a:link {
+   background-color: transparent;
+   text-decoration: none;
+}

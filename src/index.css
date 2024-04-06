@@ -2,11 +2,14 @@
   font-family: "Inconsolata", monospace;
 }
 
+html {
+  font-size: 1.2rem !important;
+}
+
 body {
     height: 100%;
     margin: 0;
   font-family: "Inconsolata", monospace;
-  font-size: 1.15em !important;
    background-color: #fffaeb;
 }
 
