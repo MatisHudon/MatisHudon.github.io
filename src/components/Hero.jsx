@@ -17,6 +17,7 @@ import deepNormals from '../assets/deepNormals.png'
 import flashes from '../assets/flahes.png'
 import lightComp from '../assets/lightComp.png'
 import shapeAndRef from '../assets/shapeAndRef.png'
+import dsb from '../assets/dsb.png'
 
 function Hero() {
 
@@ -151,6 +152,21 @@ function Hero() {
                     publisher={Elsevier}
                     }"
               img={celAnim}
+            />
+
+            <Publication
+              title="Deepstereobrush: Interactive Depth Map Creation"
+              authors="Sebastian Knorr, Matis Hudon, Julian Cabrera, Thomas Sikora, Aljosa Smolic"
+              pdf="http://elvera.nue.tu-berlin.de/files/1546Knorr2018.pdf"
+              cite="@inproceedings{knorr2018deepstereobrush,
+                    title={Deepstereobrush: Interactive depth map creation},
+                    author={Knorr, Sebastian and Hudon, Matis and Cabrera, Julian and Sikora, Thomas and Smolic, Aljosa},
+                    booktitle={2018 International Conference on 3D Immersion (IC3D)},
+                    pages={1--8},
+                    year={2018},
+                    organization={IEEE}
+                  }"
+              img={dsb}
             />
 
             <Publication
