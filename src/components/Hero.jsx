@@ -80,8 +80,8 @@ function Hero() {
               date="2023-Today"
               company="Tyndall FX"
               url="https://tyndall-fx.com/"
-              title="Founder and R&D Head"
-              sub=<p> As a founder at Tyndall FX, a dynamic startup environment presented me with novel challenges, fostering the development of new software engineering proficiencies. I’m deeply involved in development efforts, but my role extends beyond that, I lead a team of skilled individuals, driving them toward ambitious objectives. Within Tyndall, I've cultivated extensive expertise in emerging fields like NERF and 3D Gaussian splatting, refining these techniques for enhanced quality, runtime efficiency, and training duration through the reimagining and optimization of GPU kernels (CUDA and Metal). Additionally, I've engaged in frontend and backend development for our application, leading to the acquisition of proficiency in frontend technologies such as JavaScript and React, as well as backend tools like SQL, asynchronous Python, and S3 storage management.</p>
+              title="R&D Head"
+              sub=<p> As a Head of R&D at Tyndall FX, a dynamic startup environment presented me with novel challenges, aqcuiring new software engineering skills. I’m deeply involved in development efforts, but my role extends beyond that, I lead a team of skilled individuals, driving them toward ambitious objectives. Within Tyndall, I've cultivated extensive expertise in emerging fields like NERF and 3D Gaussian splatting, refining these techniques for enhanced quality, runtime efficiency, and training duration through the reimagining and optimization of GPU kernels (CUDA and Metal). Additionally, I've engaged in frontend and backend development for our application, leading to the acquisition of proficiency in frontend technologies such as JavaScript and React, as well as backend tools like SQL, asynchronous Python, and S3 storage management.</p>
               hover_callback={hover_callback}
             />
             <Experience 
