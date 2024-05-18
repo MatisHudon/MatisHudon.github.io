@@ -18,6 +18,10 @@ import flashes from '../assets/flahes.png'
 import lightComp from '../assets/lightComp.png'
 import shapeAndRef from '../assets/shapeAndRef.png'
 import dsb from '../assets/dsb.png'
+import python from '../assets/python.png';
+import cpp from '../assets/cpp.png';
+import nvidia from '../assets/nvidia.png';
+import opengl from '../assets/opengl.png';
 
 function Hero() {
 
@@ -68,12 +72,41 @@ function Hero() {
             <div style={{height: "60px"}}/>
             <h2 className="display-5" ref={aRef}> About </h2>
             <div style={{height: "10px"}}/>
-            <p> Researcher with over 10 years of expertise in academia and entrepreneurship, specializing in computer vision, computer graphics, and imaging technologies. Led impactful projects in sensor technology and AI applications. Co-founder of Tyndall FX, focusing on R&D in emerging fields like NERF, 3D Gaussian splatting and vision transformers. Dedicated to pushing boundaries and achieving ambitious goals in technology and research. Skilled developer with a strong proficiency in various programming languages and frameworks.</p>
+            <p> Researcher with over 10 years of expertise, specializing in machine learning, computer vision and computer graphics. Led impactful projects in sensor technology and AI applications. Head of R&D at Tyndall FX, I also have a strong expertise in NeRF, 3D Gaussian splatting and vision transformers. Dedicated to pushing boundaries and achieving ambitious goals in technology and research. Skilled developer with a strong proficiency in various programming languages and frameworks.</p>
             <br/>
             <Interests/>
             <br/>
             <h1 className="display-5" ref={skillRef}> Skills </h1>
             <Skills/>
+
+            <Experience 
+              date=<img src={python} className="img-fluid"/>
+              company="Python"
+              title="8 years"
+              sub=<p> I started using python at the end of my PhD, I was developing a genetic algorithm to match image aestethics using numpy and opencv. I have more than 5 years of experience developing in pytorch, I can make really efficient code with it. I also master Tensorflow though I have mainly used pytorch in the last few years and only used tensorflow to quantize models (tflite) before deploying into production. Lately I also did some backend development in python (flask, alembic, async etc)</p>
+              hover_callback={hover_callback}
+            />
+            <Experience 
+              date=<img src={cpp} className="img-fluid"/>
+              company="C++"
+              title="4 years"
+              sub=<p> I was manily using C++ during my Phd, I was developing complex and efficient algorithms following c++11 standards. I also gained a lot of experience in OpenCV at that time. More recently I have participated to the development a 3D Gaussian Splatting training engine in C++/Metal </p>
+              hover_callback={hover_callback}
+            />
+            <Experience 
+              date=<img src={nvidia} className="img-fluid"/>
+              company="Cuda"
+              title="4 years"
+              sub=<p> I was developing Cuda Kernels during my PhD to accelerate my algorithms, more recently I developed some Cuda kernels to accelerate machine learning models, NeRF and 3DGS trainings.</p>
+              hover_callback={hover_callback}
+            />
+            <Experience 
+              date=<img src={opengl} className="img-fluid"/>
+              company="OpenGL"
+              title="1 year"
+              sub=<p> I have used OpenGL in many different projects through my career, for exemple when developing LightSense (a tool to render objects coherently in AR) or more recently a NeRF viewer for internal use at TyndallFX.</p>
+              hover_callback={hover_callback}
+            />
             <br/>
             <h1 className="display-5" ref={expRef}> Experience </h1>
             <Experience 
