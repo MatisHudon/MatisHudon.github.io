@@ -155,6 +155,7 @@ function Hero() {
             <h1 className="display-5" ref={pubRef}> Publications </h1>
             <Publication
               title="Deep Normal Estimation for Automatic Shading of Hand-Drawn Characters"
+              conf="The European Conference on Computer Vision (ECCV) Workshops, 2018, pp. 0-0"
               authors="M Hudon, R Pagés, M Grogan, A Smolić"
               github="https://github.com/V-Sense/DeepNormals"
               video="https://youtu.be/1tZ-y0PzV8g"
@@ -173,6 +174,7 @@ function Hero() {
             <Publication
               title="2DToonShade: A stroke based toon shading system"
               authors="M Hudon, R Pagés, M Grogan, J Ondřej, A Smolić"
+              conf="Computers & Graphics: X 1, 100003"
               pdf="https://www.sciencedirect.com/science/article/pii/S2590148619300032"
               video="https://www.youtube.com/watch?v=gmxfUw3BvDo&amp;feature=emb_title"
               cite="@article{hudon20192dtoonshade,
@@ -189,6 +191,7 @@ function Hero() {
 
             <Publication
               title="Deepstereobrush: Interactive Depth Map Creation"
+              conf="2018 International Conference on 3D Immersion (IC3D), 1-8 - BEST PAPER AWARD"
               authors="Sebastian Knorr, Matis Hudon, Julian Cabrera, Thomas Sikora, Aljosa Smolic"
               pdf="http://elvera.nue.tu-berlin.de/files/1546Knorr2018.pdf"
               cite="@inproceedings{knorr2018deepstereobrush,
@@ -205,6 +208,7 @@ function Hero() {
             <Publication
               title="Dynamic Environment Mapping for Augmented Reality Applications on Mobile Devices"
               authors="R Monroy, M Hudon, A Smolić"
+              conf="The Eurographics Association"
               github="https://github.com/rmonroy84/VSENSE_TANGO_AR"
               video="https://www.youtube.com/watch?v=Tl-LN8iygAo"
               pdf="https://arxiv.org/pdf/1809.08134"
@@ -223,6 +227,7 @@ function Hero() {
 
             <Publication
               title="Automatic Palette Extraction for Image Editing"
+              conf="Irish Machine Vision and Image Processing Conference"
               authors="M Grogan, M Hudon, Daniel McCormack, A Smolić"
               pdf="https://v-sense.scss.tcd.ie/wp-content/uploads/2018/09/IMVIP18_palette.pdf"
               img={autoPal}
@@ -231,6 +236,7 @@ function Hero() {
             <Publication
               title="2D Shading for Cel Animation"
               authors="M Hudon, R Pagés, M Grogan, J Ondřej, A Smolić"
+              conf="Proceedings of the Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering"
               pdf="https://www.researchgate.net/profile/Matis-Hudon/publication/325788674_2D_Shading_for_Cel_Animation/links/5b48b0d70f7e9b4637d5b704/2D-Shading-for-Cel-Animation.pdf"
               video="https://www.youtube.com/watch?v=4pFufShSt0c"
               cite="@inproceedings{hudon2018deep,
@@ -248,6 +254,7 @@ function Hero() {
             <Publication
               title="Automatic Light Compositing using Rendered Images"
               authors="M Hudon, R Cozot, K Bouatouch"
+              conf="Digital Media Industry & Academic Forum (DMIAF)"
               pdf="http://cozot.free.fr/pdfs/dmiaf_2016.pdf"
               cite="@inproceedings{hudon2016automatic,
                     title={Automatic light compositing using rendered images},
@@ -263,6 +270,7 @@ function Hero() {
             <Publication
               title="Shape and Reflectance from RGB-D Images using Time Sequential Illumination"
               authors="M Hudon, A Gruson, P Kerbiriou, R Cozot, K Bouatouch"
+              conf="VISIGRAPP 3, 534-543"
               pdf="https://data.adrien-gruson.com/research/2016_RGBD-Sequential_Hudon.pdf"
               cite="@inproceedings{hudon2016shape,
                     title={Shape and reflectance from rgb-d images using time sequential illumination},
@@ -278,6 +286,7 @@ function Hero() {
             <Publication
               title="High speed sequential illumination with electronic rolling shutter cameras"
               authors="M Hudon, P Kerbiriou, A Schubert, K Bouatouch"
+              conf="Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops"
               pdf="https://openaccess.thecvf.com/content_cvpr_workshops_2015/W10/papers/Hudon_High_Speed_Sequential_2015_CVPR_paper.pdf"
               cite="@inproceedings{hudon2015high,
                     title={High speed sequential illumination with electronic rolling shutter cameras},
